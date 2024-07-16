@@ -1,0 +1,61 @@
+h1{
+	color:#eae2b7;
+	 font-family: "Bebas Neue", sans-serif;
+	 font-size: 80px;
+}
+p{
+	color:#eae2b7 ;
+}
+body{
+	background-color:#000000 ;
+	 font-family: "Merriweather", serif;
+}
+span{
+	color: #D66722;
+}
+
+h2{
+	color:#eae2b7 ;
+}
+
+h1,#Soustitre , p{
+	text-align: center;
+
+}
+div{
+	height: 200px;
+	background-image:url("images/télécharge.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* espace entre les images */
+  align-items: center; /* aligne les images verticalement */
+  background-image: none;
+  height:600px;
+}
+
+.container img {
+  max-width: 400px;
+  margin:0px; /* marge horizontale entre les images */
+}
+@keyframes cligner {
+0% {
+opacity: 0;
+}
+50% {
+opacity: 1;
+}
+100%{
+opacity: 0;
+}
+}
+#titre{
+color: white;
+font-size: 80px;
+animation: cligner 3s infinite;
+}
+
+
